@@ -48,19 +48,27 @@
     height: 90%;
     top: 5%;
     border-radius: 6px;
-    box-shadow: 0 2px 26px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 26px rgba(255, 255, 255, 0.12);
   }
   
   .letter:after {
-    content: "";
+    content: "Te amo mucho y espero con ansias estar contigo por lo que me ‎ ‎ ‎ ‎ ‎ ‎‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  queda de vida ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ te amo";
+    color: #D00000;
     position: absolute;
-    top: 0;
+    top: 28%;
     bottom: 0;
-    left: 0;
+    left: 10%;
     right: 0;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(239, 215, 239, 0.7) 55%, #eed7ef 100%);
   }
   
+  .words {
+    color: rgb(255, 0, 102);
+    font-size: 14px;
+    margin-left: 1%;
+    line-height: 0.7;
+    display: none;
+  }
   .words {
     position: absolute;
     left: 10%;
@@ -76,6 +84,7 @@
   }
   
   .words.line2 {
+    
     top: 30%;
   }
   
